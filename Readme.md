@@ -5,10 +5,14 @@ use playwright to have a full capable browser
 
 Perfect for hooking a AI to the web
 
-to do :
+## to do :
+
 [ ] Add audio
+
 [ ] Improve mouse latency (scroll)
+
 [ ] Add Right Click
+
 
 # how to run
 
