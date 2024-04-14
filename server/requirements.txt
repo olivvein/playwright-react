@@ -1,0 +1,9 @@
+beautifulsoup4==4.12.3
+fastapi==0.110.0
+numpy==1.24.3
+opencv_python==4.8.0.76
+playwright==1.42.0
+ptyprocess==0.7.0
+rich==13.7.1
+uvicorn==0.29.0
+uvicorn[standard]==0.29.0
