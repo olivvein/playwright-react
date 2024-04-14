@@ -1,7 +1,8 @@
 ## A Browser with full capabilities in your react app
 
 The browser run in local on your computer
-use playwright to have a full capable browser
+
+Uses playwright to have a full capable browser
 
 Perfect for hooking a AI to the web
 
