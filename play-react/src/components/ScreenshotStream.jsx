@@ -41,8 +41,7 @@ const ScreenshotStream= () => {
 
 
   useEffect(() => {
-    //const socket = new WebSocket("ws://macbook-pro-de-olivier.local:8000/ws");
-    const socket = new WebSocket(`ws://g40wcwo.164.132.173.127.sslip.io/ws`);
+    const socket = new WebSocket(`ws://${window.location.hostname}:8000/ws`);
     socketRef.current = socket;
 
     socket.onmessage = (event) => {
@@ -63,10 +62,8 @@ const ScreenshotStream= () => {
   const socketContentRef = useRef(null);
 
   useEffect(() => {
-    // const socket = new WebSocket(
-    //   "ws://macbook-pro-de-olivier.local:8000/ws_page_content"
-    // );
-    const socket = new WebSocket(`ws://g40wcwo.164.132.173.127.sslip.io/ws_page_content`);
+    
+    const socket = new WebSocket(`ws://${window.location.hostname}:8000/ws_page_content`);
     socketContentRef.current = socket;
 
     socket.onmessage = (event) => {
